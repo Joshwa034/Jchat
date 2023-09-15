@@ -1,0 +1,69 @@
+.logo{
+    
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+
+}
+body{
+    background-color: rgb(46, 105, 105);
+}
+.container{
+    display: block;
+    margin: auto;
+    background-color: rgb(129, 86, 30);
+    height: 60vh;
+    max-width: 600px;
+    overflow: auto;
+    border-radius: 7px;
+
+}
+.message{
+    background-color: #dcc0c0;
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 30px;
+
+
+}
+
+.left{
+    float: left;
+    clear: both;
+
+}
+
+.right{
+    float: right;
+    clear: both;
+
+}
+
+#sendcontainer{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    min-width: 985px;
+   
+}
+.messageinp{
+    width: 100%;
+    max-width: 550px;
+    border: 2px solid black;
+    height: 30px;
+    border-radius: 10px;
+
+}
+.btn{
+    height: 30px;
+    margin-left: 0px;
+    background-color: #caadad;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
